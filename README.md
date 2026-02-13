@@ -1,5 +1,8 @@
 
+
 # GitHub Dark Anas VS Code Theme
+
+![GitHub Dark Anas Theme Screenshot](images/Screenshot1.jpg)
 
 This is a customized fork of the GitHub VS Code theme, focused on dark mode only, with personal modifications.
 
