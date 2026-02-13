@@ -2,7 +2,7 @@
   "name": "my-own-modified-github-vscode-theme",
   "displayName": "GitHub Anas Theme",
   "description": "GitHub theme for VS Code",
-  "version": "6.3.5",
+  "version": "1.3.5",
   "publisher": "AnasFiguigui",
   "license": "MIT",
   "icon": "icon.png",
@@ -18,7 +18,7 @@
     "url": "https://github.com/primer/github-vscode-theme/issues"
   },
   "engines": {
-    "vscode": "^1.43.0"
+    "vscode": "^1.0.0"
   },
   "categories": [
     "Themes"
@@ -34,31 +34,6 @@
         "label": "GitHub Dark Anas",
         "uiTheme": "vs-dark",
         "path": "./themes/dark-anas.json"
-      },
-      {
-        "label": "GitHub Dark Default",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark-default.json"
-      },
-      {
-        "label": "GitHub Dark High Contrast",
-        "uiTheme": "hc-black",
-        "path": "./themes/dark-high-contrast.json"
-      },
-      {
-        "label": "GitHub Dark Colorblind (Beta)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark-colorblind.json"
-      },
-      {
-        "label": "GitHub Dark Dimmed",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark-dimmed.json"
-      },
-      {
-        "label": "GitHub Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark.json"
       }
     ]
   },
