@@ -1,31 +1,33 @@
+ # Dark Reign Theme for VS Code
 
+ A modern, high-contrast dark theme inspired by GitHub Dark, with personal customizations for a sleek coding experience.
 
-# GitHub Dark Anas VS Code Theme
+ ![Screenshot](images/Screenshot1.jpg)
 
-![GitHub Dark Anas Theme Screenshot](images/Screenshot1.jpg)
+ ## Features
+ - True dark mode for comfortable coding
+ - Enhanced syntax highlighting for readability
+ - Minimal, distraction-free UI
+ - Based on GitHub Dark, with unique tweaks
 
-This is a customized fork of the GitHub VS Code theme, focused on dark mode only, with personal modifications.
+ ## Installation
 
-## Installation
+ ### From Marketplace
+ 1. Search for "Dark Reign Theme" in the Extensions view.
+ 2. Click Install.
+ 3. Open the Command Palette (`Ctrl+Shift+P`), search for `Color Theme`, and select **GitHub Dark Anas**.
 
-### 1. Download and Install the .vsix
+ ### Manual (.vsix)
+ 1. Download the latest `.vsix` from the [build/](build/) directory or generate your own.
+ 2. In VS Code, open the Command Palette (`Ctrl+Shift+P`), type `Extensions: Install from VSIX...`, and select your `.vsix` file.
+ 3. Set the theme as above.
 
-1. Download the latest `.vsix` file from the `build/` directory or generate your own (see below).
-2. In VS Code, open the Command Palette (`Ctrl+Shift+P`), type `Extensions: Install from VSIX...`, and select your `.vsix` file.
-3. Open the Command Palette again, search for `Color Theme`, and select `GitHub Dark Anas`.
+ ## Customization
+ - Edit the JSON files in the `themes/` directory for advanced tweaks.
+ - Only dark themes included; light variants removed for focus.
 
-## How to Generate Your Own .vsix After Edits (If Forked)
+ ## Contributing
+ Contributions, feedback, and suggestions are welcome! Fork the repo, make your changes, and submit a pull request.
 
-1. Make your changes to the theme files (for example, edit `themes/dark-anas.json`).
-2. Open a terminal in the project directory.
-3. Run:
-   - `npm install` (if you haven't already)
-   - `npm run build` (to build the theme files)
-   - `npm run package` (to generate the `.vsix` file in the `build/` folder)
-4. Install your new `.vsix` in VS Code as described above.
-
-## Notes
-
-- This fork only includes dark themes. All light themes have been removed.
-- For more customization, edit the JSON files in the `themes/` directory.
-- If you want to contribute or further customize, simply fork this repo and follow the steps above.
+ ## License
+ MIT
