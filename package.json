@@ -50,7 +50,7 @@
   "scripts": {
     "start": "nodemon --watch src src/index.js",
     "build": "node src/index.js && mkdir -p build",
-    "package": "vsce package -o ./build/anas-github-vscode-theme.vsix",
+    "package": "vsce package -o ./build/dark-reign-theme.vsix",
     "prepublishOnly": "npm run build && vsce publish",
     "release": "changeset publish"
   },
