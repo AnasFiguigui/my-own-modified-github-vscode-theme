@@ -11,6 +11,17 @@ A modern, high-contrast dark theme inspired by GitHub Dark, with personal custom
 - Based on GitHub Dark, with unique tweaks
 - **Now includes four new themes: Void, Inferno, Emerald, and Ocean**
 
+### Git Staged Color (Required) ⚠️⚠️
+
+By default, both your `git status` staged files and your terminal user/hostname will appear the same color, since both use `terminal.ansiGreen`.
+
+If you want your staged files to use the original green (and not match the user/hostname color), you can override the color for staged files with this git command:
+
+```sh
+git config --global color.status.added "green bold"
+```
+This will make staged files use the default green.
+
 ## Installation
 
 ### From Marketplace
@@ -28,7 +39,7 @@ A modern, high-contrast dark theme inspired by GitHub Dark, with personal custom
 - Only dark themes included; light variants removed for focus.
 
 ## Contributing
-Contributions, feedback, and suggestions are welcome! Fork the repo, make your changes, and submit a pull request.
+Contributions, feedback, and suggestions are welcome! Fork the repo, make your changes, and submit a pull request. enjoy (*￣▽￣*)ブ !!
 
 ## License
 MIT

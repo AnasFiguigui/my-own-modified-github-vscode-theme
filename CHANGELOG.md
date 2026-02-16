@@ -1,3 +1,11 @@
+# 1.0.4
+
+### Changed
+
+- Updated README to clarify how git staged file colors relate to the theme's ansiBrightGreen and user/hostname color.
+- Added instructions for restoring the original green for staged files using git config.
+- Added new theme: **Blossom**.
+
 
 # Dark Reign VS Code Theme
 
